@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="form">0</div>
+    <div id=" div " class=" flex-container ">
+        <button id="num9"    class="stop"     onclick="nine()">9</button>
+        <button id="num8"      class="stop"   onclick="eigth()">8</button>
+        <button id="num7"    class="stop"    onclick="seven()">7</button>
+        <button id="num6"      class="stop"     onclick="six()">6</button>
+        <button id="num5"     class="stop"   onclick="five()">5</button>
+        <button id="num4"     class="stop"      onclick="four()">4</button>
+        <button id="num3"    class="stop"    onclick="three()">3</button>
+        <button id="num2"      class="stop"    onclick="two()">2</button>
+        <button id="num1"      class="stop"    onclick="one()">1</button>
+        <button id="num0"     class="stop"    onclick="zero()">0</button>
+        <button id="multi"    class="stopop5"     onclick="multi()">*</button>
+        <button id="divide"   class="stopop4"     onclick="divide()">/</button>
+        <button id="sub"      class="stopop3"    onclick="sub()">-</button>
+        <button id="plus"     class="stopop2"    onclick="plus()">+</button>
+        <button id="dott"     class="stopop1"    onclick="dott()">.</button>
+        <button id="erase"                    onclick="erase()">a</button>
+        <button id="dell"                     onclick="eraser()">ac</button>
+        <button id="equal"                      onclick="equal()">=</button>
+    </div>
+
+    <script src="scrjs.js "></script>
+</body>
+
+</html>
